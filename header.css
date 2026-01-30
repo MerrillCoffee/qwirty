@@ -1,0 +1,24 @@
+header.page nav {
+    background-color: blueviolet;
+    color: white
+}
+
+header.page a:hover {
+    color: rgb(241, 241, 241);
+    text-decoration: underline;
+}
+
+header.page menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+header.page menu.top-right-bar {
+    display: none;
+}
+
+header.page menu li {
+    padding: .5lh;
+
+}
