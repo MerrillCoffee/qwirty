@@ -1,6 +1,11 @@
 header.page nav {
     background-color: blueviolet;
-    color: white
+    color: white;
+}
+
+header.page div {
+    display: flex;
+    justify-content: space-between;
 }
 
 header.page a:hover {
@@ -12,13 +17,19 @@ header.page menu {
     list-style: none;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    list-style: none;
 }
 
 header.page menu.top-right-bar {
-    display: none;
-}
+    display: flex;
+    }
 
 header.page menu li {
     padding: .5lh;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
 
 }
