@@ -3,8 +3,12 @@ header {
     unicode-bidi: isolate;
 }
 
+header.page div {
+    display: flex;
+}
+
 header.page nav {
-    background-color: blueviolet;
+    background-color: #44b;
     color: white;
 }
 
@@ -65,4 +69,41 @@ a {
     color: unset;
     text-decoration: unset;
     cursor: pointer;
+}
+
+
+.bottom-menu {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2ch;
+    padding: .8rem;
+}
+
+header.page .bottom-menu h1 {
+    padding: 1rem;
+    text-align: center;
+    color: var(--fg)
+}
+
+header.page .bottom-menu form {
+    display: flex;
+}
+
+header.page .bottom-menu form input{
+    flex: 1;
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid var(--fg);
+    padding: .25rem .5rem;
+    width: 60em;
+    height: 3em;
+}
+header.page .bottom-menu a {
+    background: rgb(212, 8, 8);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.7rem;
+    flex-shrink: 0;
 }
