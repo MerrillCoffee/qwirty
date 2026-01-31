@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+:root {
+    --bg: #eee;
+    --fg: #44b;
+    --fg-dark: #228;
+}
+
+body {
+    background: var(--bg);
+}

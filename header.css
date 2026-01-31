@@ -1,3 +1,8 @@
+header {
+    display: block;
+    unicode-bidi: isolate;
+}
+
 header.page nav {
     background-color: blueviolet;
     color: white;
@@ -19,6 +24,7 @@ header.page menu {
     align-items: center;
     justify-content: space-between;
     list-style: none;
+    font-size: 1.15em;
 }
 
 header.page menu.top-right-bar {
@@ -26,10 +32,37 @@ header.page menu.top-right-bar {
     }
 
 header.page menu li {
-    padding: .5lh;
+    padding: .25rem;
+    margin-block-start: .3em;
+    margin-block-end: .3em;
+    padding-inline: 10px;
+    unicode-bidi: isolate;
+}
+
+header.page menu li:not(:last-child) {
+      border-right: 1px solid var(--bg)
+}
+
+li {display: list-item;
+    unicode-bidi: isolate;
+}
+
+.top-menu {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0.25rem;
+}
+
+menu {
     margin-block-start: 1em;
     margin-block-end: 1em;
     padding-inline-start: 40px;
     unicode-bidi: isolate;
+    margin: 0px;
+}
 
+a {
+    color: unset;
+    text-decoration: unset;
+    cursor: pointer;
 }
