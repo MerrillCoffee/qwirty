@@ -1,3 +1,12 @@
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+  background-color: #228;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -12,4 +21,14 @@ body {
 
 body {
     background: var(--bg);
+}
+
+@media (min-width: 720px) {
+    .page-container {display: flex;}
+}
+
+div.page-container {
+    display: flex;
+    max-width: 1280px ;
+    margin: 0 auto
 }

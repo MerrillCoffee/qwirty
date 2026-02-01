@@ -1,0 +1,14 @@
+nav.sidebar {
+    display:flex;
+    flex-direction: column;
+    gap: .25rem;
+    min-width: 25ch;
+    padding: .25rem;
+}
+
+nav.sidebar a {
+    background: var(--fg);
+    color: white;
+    text-transform: uppercase;
+    padding: .5rem
+}

@@ -107,3 +107,13 @@ header.page .bottom-menu a {
     padding: 0.7rem;
     flex-shrink: 0;
 }
+
+div.bottom-menu form button {
+    background-color: var(--fg);
+    color: white;
+}
+
+div.bottom-menu {
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
